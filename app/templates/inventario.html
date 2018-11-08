@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pedidos</title>
+	<link rel="stylesheet" type="text/css" href="../estilos/global.css">
+	<link rel="stylesheet" href="../estilos/inventario.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<div class="grid-conteiner">
+		<header class="encabezado">
+			<h1 class="titulo">Smart</h1>
+			<i class="fas fa-car logo"></i>
+		</header>
+		<div class="contenido">
+			<div class="grid-boton">
+				<i class="fas fa-file-invoice logo-menu"></i>
+				<p class="texto-boton pedido">Inventario</p>
+			</div>
+			
+			<a href="#" class="grid-boton" id="show-modal">
+				<i class="fas fa-plus-circle logo-menu"></i>
+				<p class="texto-boton">Agregar venta nueva</p>
+			</a>
+
+			<div class="lista-contenedor">
+			
+				<input type="search" class="light-table-filter filtro" data-table="order-table" placeholder="Filtrar">
+				<div class="lista">
+				<table class="order-table table tabla">
+				<thead></thead>
+					<tr>
+                        <th>Referencia</th>
+                        <th>Marca</th>
+                        <th>Precio</th>
+                        <th>Fecha Ingreso</th>
+                        <th>Foto</th>
+					</tr>
+				</thead>
+				<tbody>
+                    <tr>
+                        <td>000568</td>
+                        <td>Suzuki</td>
+                        <td>13500</td>
+                        <td>22/10/2018</td>
+                        <td><img class="foto-tabla" src="../estilos/img/suzuki.jpg" alt="suzuki"></td>
+                    </tr>
+                    <tr>
+                        <td>000769</td>
+                        <td>Hyundai</td>
+                        <td>15700</td>
+                        <td>19/09/2018</td>
+                        <td><img class="foto-tabla" src="../estilos/img/accent.jpg" alt="accent"></td>                       
+                    </tr>
+                    <tr>
+                        <td>000824</td>
+                        <td>Mitsubishi</td>
+                        <td>18900</td>
+                        <td>04/10/2018</td>
+                        <td><img class="foto-tabla" src="../estilos/img/lancer.jpg" alt="accent"></td>                       
+                    </tr>
+                    <tr>
+                        <td>001083</td>
+                        <td>Kia</td>
+                        <td>9990</td>
+                        <td>01/11/2018</td>
+                        <td><img class="foto-tabla" src="../estilos/img/picanto.jpg" alt="accent"></td>                       
+                    </tr>
+                    <tr>
+                        <td>000585</td>
+                        <td>Mazda</td>
+                        <td>23499</td>
+                        <td>14/11/2018</td>
+                        <td><img class="foto-tabla" src="../estilos/img/cx3.jpg" alt="accent"></td>                       
+                    </tr>
+                    <tr>
+                        <td>000974</td>
+                        <td>Kia</td>
+                        <td>15499</td>
+                        <td>29/11/2018</td>
+                        <td><img class="foto-tabla" src="../estilos/img/rio.jpg" alt="accent"></td>                       
+                    </tr>
+				</tbody>
+				</table>
+			</div>
+			</div>
+
+		</div>
+		<nav class="sidebar">
+			sidebar
+		</nav>
+		<footer class="footer">
+			footer
+		</footer>
+	</div>
+	<script src="../templates/js/scripts.js"></script>
+	<script src="../templates/js/modal-ventas.js"></script>
+</body>
+</html>

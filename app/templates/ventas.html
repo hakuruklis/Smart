@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pedidos</title>
+	<link rel="stylesheet" type="text/css" href="../estilos/global.css">
+	<link rel="stylesheet" href="../estilos/ventas.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<div class="grid-conteiner">
+		<header class="encabezado">
+			<h1 class="titulo">Smart</h1>
+			<i class="fas fa-car logo"></i>
+		</header>
+		<div class="contenido">
+			<div class="grid-boton">
+				<i class="fas fa-file-invoice logo-menu"></i>
+				<p class="texto-boton pedido">Ventas</p>
+			</div>
+			
+			<a href="#" class="grid-boton" id="show-modal">
+				<i class="fas fa-plus-circle logo-menu"></i>
+				<p class="texto-boton">Agregar venta nueva</p>
+			</a>
+
+			<div class="lista-contenedor">
+			
+				<input type="search" class="light-table-filter filtro" data-table="order-table" placeholder="Filtrar">
+				<div class="lista">
+				<table class="order-table table tabla">
+				<thead></thead>
+					<tr>
+						<th class="npedido"># de Factura</th>
+						<th class="marca">Nombre</th>
+						<th class="precio">Valor</th>
+						<th class="cantidad">Vehiculo</th>
+						<th class="fecha">Fecha de Venta</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="npedido">0000123</td>
+						<td class="marca">Juan Lopez</td>
+						<td class="precio">15000</td>
+						<td class="cantidad">Kia</td>
+						<td class="fecha">20/11/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000124</td>
+						<td class="marca">Maria Caceres</td>
+						<td class="precio">27000</td>
+						<td class="cantidad">Kia</td>
+						<td class="fecha">02/12/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000125</td>
+						<td class="marca">Pedro Rosales</td>
+						<td class="precio">25000</td>
+						<td class="cantidad">Mazda</td>
+						<td class="fecha">27/11/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000126</td>
+						<td class="marca">Luis Perez</td>
+						<td class="precio">13500</td>
+						<td class="cantidad">Hyundai</td>
+						<td class="fecha">15/12/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000127</td>
+						<td class="marca">Ana Fuentes</td>
+						<td class="precio">16599</td>
+						<td class="cantidad">Mitsubishi</td>
+						<td class="fecha">26/11/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000128</td>
+						<td class="marca">Carlos Barrera</td>
+						<td class="precio">12599</td>
+						<td class="cantidad">Kia</td>
+						<td class="fecha">30/12/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000129</td>
+						<td class="marca">Martin Gonzalez</td>
+						<td class="precio">16799</td>
+						<td class="cantidad">Kia</td>
+						<td class="fecha">29/12/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000130</td>
+						<td class="marca">Victoria Rodriguez</td>
+						<td class="precio">20000</td>
+						<td class="cantidad">Suzuki</td>
+						<td class="fecha">11/11/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000131</td>
+						<td class="marca">Miguel Sierra</td>
+						<td class="precio">23499</td>
+						<td class="cantidad">Hyundai</td>
+						<td class="fecha">01/12/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000132</td>
+						<td class="marca">Margarita Navarro</td>
+						<td class="precio">15000</td>
+						<td class="cantidad">Kia</td>
+						<td class="fecha">15/01/2019</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000133</td>
+						<td class="marca">Oscar Ramos</td>
+						<td class="precio">9900</td>
+						<td class="cantidad">Mazda</td>
+						<td class="fecha">25/12/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000134</td>
+						<td class="marca">Mario Garcia</td>
+						<td class="precio">35000</td>
+						<td class="cantidad">Kia</td>
+						<td class="fecha">09/11/2018</td>
+					</tr>
+					<tr>
+						<td class="npedido">0000135</td>
+						<td class="marca">Norma Lopez</td>
+						<td class="precio">23000</td>
+						<td class="cantidad">Suzuki</td>
+						<td class="fecha">29/12/2018</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+			</div>
+
+		</div>
+		<nav class="sidebar">
+			sidebar
+		</nav>
+		<footer class="footer">
+			footer
+		</footer>
+	</div>
+	<script src="../templates/js/scripts.js"></script>
+	<script src="../templates/js/modal-ventas.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* body{
+	background-image: url(img/concesionario-autos.jpg);
+} */
+html{
+	height: 100% !important; 
+	background-image: url(img/concesionario-autos.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	background-attachment: fixed;
+}
+body{
+	height: 800px !important;
+	width: 900px;
+	margin: auto;
+	min-height: 100%;
+}
+
+.grid-conteiner{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+.encabezado{
+	font-family: 'Anton', sans-serif;
+	grid-column: 1 / span 5;
+	grid-row: 1;
+	height: 100px;
+	width: 400px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #76A346;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+.contenido{
+	grid-column: 1 / span 4;
+	grid-row: 2 / span 3;
+	background-color: #fff;
+	border-radius: 25px;
+	margin: 10px;
+
+}
+.sidebar{
+	grid-column: 5;
+	grid-row: 2 / span 3;
+	background-color: #fff;
+	border-radius: 25px;
+	margin: 10px;
+}
+.footer{
+	grid-column: 1 / span 5;
+	grid-row: 5;
+	background-color: #fff;
+	border-radius: 25px;	
+	margin: 10px 0 100px;
+}
+
+header h1, i{
+	display: inline;
+}
+.titulo{
+	font-size: 90px;
+}
+.logo{
+	font-size: 90px;
+	margin-left: 10px;
+}
+
+
+
