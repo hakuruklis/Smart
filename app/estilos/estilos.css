@@ -1,6 +1,9 @@
 /* Globales */
 body{
 	background-image: url(img/concesionario-autos.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 /* Header */

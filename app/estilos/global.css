@@ -43,14 +43,15 @@ body{
 	background-color: #fff;
 	border-radius: 25px;
 	margin: 10px;
+	-webkit-box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+	box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
 
 }
 .sidebar{
 	grid-column: 5;
 	grid-row: 2 / span 3;
 	background-color: #fff;
-	border-radius: 25px;
-	margin: 10px;
 }
 .footer{
 	grid-column: 1 / span 5;
@@ -73,3 +74,108 @@ header h1, i{
 
 
 
+
+.sidebar{
+  height: 520px;
+  width: 160px;
+  margin: 10px;
+  border-radius: 25px;
+  display: grid;
+  -webkit-box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+}
+.ul-sidebar{
+  padding-left: 25px;
+  background-color: #F1C40F;
+  border-radius: 15px;
+ }
+.lista-sidebar{
+  padding: 5px 5px;
+  align-self: start;
+}
+.texto-sidebar{
+  padding: 2px;
+}
+
+
+.objetivos, .ultimas-noticias{
+  display: grid;
+  grid-template-rows: 50px 1fr; 
+  align-items: center;
+  justify-items: center;
+}
+.titulo-sidebar{
+  font-size:18px;
+  background-color: #3498DB;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  width: 85%;
+}
+
+
+.footer{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 70px;
+  width: 900px;
+  border-radius: 25px;
+  -webkit-box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+  box-shadow: 3px 6px 33px 5px rgba(0,0,0,0.75);
+}
+.smart-com{
+  border-right: 1px solid black;
+  align-self: center;
+  justify-self: center;
+}
+
+.footer-com{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.contacto{
+  grid-column: 1;
+  align-self: center;
+  justify-self: center;
+}
+.sobre-nosotros{
+  grid-column: 2;
+  align-self: center;
+  justify-self: center;
+}
+.logos{
+  grid-columns:3;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  justify-items: center;
+}
+.contacto, .sobre-nosotros{
+  margin: 0;
+  font-size: 20px;
+  background-color: #27AE60;
+  padding: 10px;
+  border-radius: 15px;
+  color: #fff;
+}
+.contacto:hover, .sobre-nosotros:hover{
+  margin: 0;
+  font-size: 20px;
+  background-color: #52BE80;
+  padding: 10px;
+  border-radius: 15px;
+  color: #fff;
+}
+.logo-footer{
+  color: #76A346;
+  font-size: 50px;
+}
+.rights{
+  margin-right: 10px;
+  color: #000;
+}
