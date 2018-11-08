@@ -57,6 +57,7 @@ const addAttributes = (element, attrObj) => {
       Fecha de la Venta:<br>
       <input type="text" name="lastname" placeholder="Escribe Aqui"><br><br>
       <input type="submit" value="Submit">
+      <a href="../templates/factura.pdf">Venta</a>
     </fieldset>
   <div>
   
